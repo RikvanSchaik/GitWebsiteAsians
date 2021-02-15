@@ -1,0 +1,26 @@
+h1{
+    font-size: 75px;
+    text-align: center;
+    margin: 0 auto;
+    color: rebeccapurple;
+}
+
+.welcome-container{
+    margin-top: 200px;
+    background-color: black;
+    border: 3px solid purple;
+    width: 1000px;
+    
+}
+
+p{
+font-size: 40px;
+color: purple;
+text-align: center;
+}
+
+body{
+    background-image: url('../img/rules-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}

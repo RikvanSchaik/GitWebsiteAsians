@@ -1,0 +1,48 @@
+.card-header{
+    background-color: black;
+    color: purple;
+    border: 5px solid purple;
+    border-radius: 1%;
+
+}
+
+.card{
+    margin-top: 50px;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    color: purple;
+    background-image: url("../img/rules-5.jpg");
+    width: 100%;
+    opacity: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-body{
+    background-color: black;
+    color: rebeccapurple;
+    border: 5px solid purple;
+    border-radius: 1%;
+}
+
+.btn-link{
+    color:purple;
+}
+
+.btn-primary{
+    background-color: black;
+    border: 2px solid purple;
+    color: rebeccapurple;
+}
+
+.form-control{
+    border: 2px solid purple;
+}
+
+
+.card{
+    background-color: black;
+}

@@ -1,0 +1,162 @@
+.container-about{
+max-width: 960px;
+margin: 0 auto;
+background: fuchsia;
+font-size: 36px;   
+padding: 25px;
+}
+
+.parallax {
+    min-height: 500px;
+    background: transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+}
+/* 
+.img-0{
+    background-image: url(../img/photo-0.jpg);
+
+    max-height: 100%; 
+}   */
+
+.info{
+    z-index: 2;
+    position: relative;
+    margin: 0 auto;
+    background: gray;
+    font-size: 36px;
+}
+
+.o-banner {
+
+  min-height: 70vh;
+  position: relative;
+}
+ 
+  .o-banner__img {
+    position: absolute;
+    width: 100%;
+    left: 0;
+ 
+    height: 100%;
+    /* top: -5%; */
+ 
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+    transform: translate3d(0, 0, 0);
+  }
+
+  .parallex-image-background{
+      z-index: -1;
+  }
+
+  body, html {
+    height: 100%;
+    margin: 0;
+    font: 400 15px/1.8 "Lato", sans-serif;
+    color: #777;
+  }
+
+  
+.bgimg1, .bgimg2, .bgimg3, .bgimg4, .bgimg5, .bgimg6, .bgimg7, .bgimg8, .bgimg9, .bgimg10, .bgimg11 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+.bgimg1 {
+  background-image: url("../img/photo-3.jpg");
+  min-height: 400px;
+  opacity: 1;
+
+}
+
+.bgimg2 {
+  background-image: url("../img/photo-1.jpg");
+  min-height: 400px;
+  opacity: 1;
+
+}
+
+.bgimg3 {
+  background-image: url("../img/photo-2.jpg");
+  min-height: 400px;
+  opacity: 1;
+
+}
+
+.bgimg4 {
+  background-image: url("../img/rules-1.jpg");
+  min-height: 400px;
+  opacity: 1;
+
+}
+
+.bgimg5 {
+  background-image: url("../img/rules-2.jpg");
+  min-height: 400px;
+  opacity: 1;
+
+}
+
+.bgimg6 {
+  background-image: url("../img/rules-3.jpg");
+  min-height: 400px;
+  opacity: 1;
+
+}
+
+.bgimg7 {
+  background-image: url("../img/rules-4.jpg");
+  min-height: 400px;
+  opacity: 1;
+
+}
+
+.bgimg8 {
+  background-image: url("../img/rules-5.jpg");
+  min-height: 400px;
+  opacity: 1;
+
+}
+
+.bgimg9 {
+  background-image: url("../img/rules-6.jpg");
+  min-height: 400px;
+  opacity: 1;
+
+}
+
+.bgimg10 {
+  background-image: url("../img/rules-7.jpg");
+  min-height: 400px;
+  opacity: 1;
+
+}
+
+.bgimg11 {
+  background-image: url("../img/rules-8.jpg");
+  min-height: 400px;
+  opacity: 1;
+
+}
+
+
+@media only screen and (max-device-width: 1024px) {
+  .bgimg1, .bgimg2, .bgimg3 {
+    background-attachment: scroll;
+  }
+}
+
+.between-images{
+  background-color: white;
+  height: 1px;
+}

@@ -1,0 +1,31 @@
+.nav-link{
+    color: purple;
+    border-bottom: 3px solid purple;
+    border-right: 1px solid rebeccapurple;
+    border-radius: 100%;
+    margin-left: 40px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-stretch: wider;
+}
+
+.navbar{
+    background-color: black;
+    border-bottom: 4px solid rebeccapurple;
+    top: 0px;
+    position: sticky;
+    z-index: 1;
+}
+
+.nav-link:hover{
+    color: rebeccapurple;
+    border-top: 1px solid rebeccapurple;
+    border-right: 3px solid purple;
+    border-radius: 100%;
+    margin-left: 40px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-stretch: wider;
+}
