@@ -1,0 +1,110 @@
+.container-server-rules{
+    
+    padding-left: 20px;
+    border: 5px solid purple;
+    padding: 50px;
+    background-color: black;
+    color: var(--purple);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+
+  }
+
+  .container-rules-5v5{
+    border: 5px solid purple;
+    padding: 50px;
+    background-color: black;
+    color: var(--purple);
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+
+  }
+
+  .container-moderation{
+    border: 5px solid purple;
+    color: var(--purple);
+    padding: 50px;
+    background-color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+
+  }
+  h2{
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: rebeccapurple;
+      }
+      h1{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+          color: purple;
+        }
+        p{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }span{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+  /* #main-container{
+    background-color: grey;
+  } */
+  .bgimg1, .bgimg2, .bgimg3, .bgimg4 {
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  }
+
+  .bgimg1 {
+    background-image: url("../img/rules-1.jpg");
+    min-height: 600px;
+    width: 100%;
+    opacity: 1;
+
+  }
+  
+  .bgimg2 {
+    background-image: url("../img/rules-2.jpg");
+    min-height: 600px;
+    width: 100%;
+    opacity: 1;
+
+  }
+  
+  .bgimg3 {
+    background-image: url("../img/rules-3.jpg");
+    min-height: 600px;
+    width: 100%;
+    opacity: 1;
+
+  }
+
+    
+  .bgimg4 {
+    background-image: url("../img/rules-4.jpg");
+    min-height: 600px;
+    width: 100%;
+    opacity: 1;
+
+  }
+  
+  @media only screen and (max-device-width: 1024px) {
+    .bgimg1, .bgimg2, .bgimg3, .bgimg4 {
+      background-attachment: scroll;
+    }
+  }
+/* 
+  .footer-rules{
+    width: 100%;
+    height: 150px;
+    background-color: black;
+    color: purple;
+    border-top: 1px solid rebeccapurple;
+  } */
+  
+  .between-images{
+    /* background-color: white; */
+    height: 300px;
+  }

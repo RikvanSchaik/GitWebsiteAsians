@@ -1,0 +1,83 @@
+.card-header{
+    background-color: black;
+    color: purple;
+    border: 5px solid purple;
+    border-radius: 1%;
+
+}
+
+.card{
+    margin-top: 50px;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    color: purple;
+    background-image: url("../img/rules-7.jpg");
+    min-height: 100%;
+    width: 100%;
+    opacity: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.card-body{
+    background-color: black;
+    color: rebeccapurple;
+    border: 5px solid purple;
+    border-radius: 1%;
+}
+
+.btn-link{
+    color:purple;
+}
+
+.btn-link:hover{
+    color:rebeccapurple;
+    
+}
+
+.btn-primary{
+    background-color: black;
+    border: 2px solid purple;
+    color: rebeccapurple;
+}
+
+.btn-primary:hover{
+    background-color: purple;
+    border: 3px solid purple;
+    color: white;
+}
+
+.form-control{
+    border: 2px solid purple;
+}
+
+.post-item{
+    height: 200px;
+    background-color: black;
+    border: 1px solid purple;
+    border-radius: 2%;
+}
+
+.post-picture{
+    margin-top: 20px;
+    margin-left: 20px;
+    border: 3px solid purple;
+    border-radius: 99%;
+    margin: 0 auto;
+    height: 175px;
+    width: 175px;
+}
+
+.post-link{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    color: rebeccapurple;
+}
+
+.card{
+    background-color: black;
+}
